@@ -2,4 +2,4 @@
 
 set -xe
 
-gcc -Wall -Wextra -o main main.c
+gcc -Wall -Wextra -o bin/main main.c
