@@ -3,5 +3,7 @@
 set -xe
 
 gcc -Wall -Wextra -o bin/single single.c -lm
-gcc -Wall -Wextra  -o bin/gates gates.c -lm
-gcc -Wall -Wextra  -o bin/xor xor.c -lm
+gcc -Wall -Wextra -o bin/gates gates.c -lm
+gcc -Wall -Wextra -o bin/xor xor.c -lm
+
+gcc -Wall -Wextra  -o bin/nn nn.c -lm
